@@ -1,0 +1,42 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+*.swp
+*.lock
+*.log
+appsettings.Development.json
+appsettings.Local.json
+
+## NuGet
+*.nupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Entity Framework
+Migrations/
+
+## Angular / Node
+onboardiq-client/node_modules/
+onboardiq-client/dist/
+onboardiq-client/.angular/
+onboardiq-client/.env
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## IDE
+.idea/
+.vscode/
+*.DotSettings
+*.DotSettings.user
+
+## Logs
+*.txt
+!operations_log.txt

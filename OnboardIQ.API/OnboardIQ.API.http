@@ -1,0 +1,6 @@
+@OnboardIQ.API_HostAddress = http://localhost:5256
+
+GET {{OnboardIQ.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
