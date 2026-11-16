@@ -6,3 +6,24 @@
 
 [2026-11-16 06:20] INIT       - Operations log created. Project started.
 [2026-11-16 06:20] TASK       - Creating GitHub repository: saivenkatcom/OnboardIQ
+[2026-11-16 06:21] CREATE     - GitHub repository created: https://github.com/saivenkatcom/OnboardIQ
+[2026-11-16 06:22] CREATE     - .NET 8 Solution scaffolded: OnboardIQ.sln
+[2026-11-16 06:22] CREATE     - Project created: OnboardIQ.API (ASP.NET Core Web API, net8.0)
+[2026-11-16 06:22] CREATE     - Project created: OnboardIQ.Core (Class Library, net8.0)
+[2026-11-16 06:22] CREATE     - Project created: OnboardIQ.Infrastructure (Class Library, net8.0)
+[2026-11-16 06:22] CONFIG     - Project references added: API → Core, API → Infrastructure, Infrastructure → Core
+[2026-11-16 06:23] PACKAGE    - Added: Microsoft.AspNetCore.Authentication.JwtBearer v8.0.8 → OnboardIQ.API
+[2026-11-16 06:23] PACKAGE    - Added: Swashbuckle.AspNetCore v6.9.0 → OnboardIQ.API (downgraded from 11.0.1 for .NET 8 compat)
+[2026-11-16 06:23] PACKAGE    - Added: Microsoft.EntityFrameworkCore.SqlServer v8.0.8 → OnboardIQ.API, OnboardIQ.Infrastructure
+[2026-11-16 06:23] PACKAGE    - Added: Microsoft.EntityFrameworkCore.Tools v8.0.8 → OnboardIQ.API
+[2026-11-16 06:23] PACKAGE    - Added: Microsoft.EntityFrameworkCore v8.0.8 → OnboardIQ.Infrastructure
+[2026-11-16 06:52] CREATE     - Angular 22 project scaffolded: onboardiq-client (SCSS, routing enabled)
+[2026-11-16 06:52] CREATE     - .gitignore created (covers .NET, Angular, Node, OS, IDE artifacts)
+[2026-11-16 06:52] CREATE     - README.md created with full project documentation
+[2026-11-16 06:55] FIX        - Build error resolved: Swashbuckle 11.0.1 incompatible with .NET 8 → downgraded to 6.9.0
+[2026-11-16 06:55] FIX        - Build error resolved: EF Core 11.0.0 incompatible with .NET 8 → pinned to 8.0.8
+[2026-11-16 07:00] UPDATE     - Program.cs rewritten: JWT Auth, Swagger UI, CORS (Angular), SignalR, Controllers configured
+[2026-11-16 07:07] BUILD      - Solution build result: SUCCESS — 0 Errors, 0 Warnings (all 3 projects compiled)
+[2026-11-16 07:07] GIT        - git init → remote added → first commit (32 files, 1100 insertions)
+[2026-11-16 07:07] PUSH       - Pushed to GitHub: main branch → https://github.com/saivenkatcom/OnboardIQ
+                               Commit: "feat: initial project scaffold - .NET 8 Web API + Angular 22 + Clean Architecture"
